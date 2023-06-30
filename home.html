@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <title>Document</title>
+</head>
+<body>
+    // call js file
+    <div id="root">
+        <h1>Home</h1>
+        <p>Home page body content</p>
+        <div id="search">
+            <input type="text" id="search_input" placeholder="Search">
+            <button id="search_button">Search</button>
+        </div>
+        <div id="Select_category">
+            <label for="category">Select category:</label>
+            <select id="category">
+                <option value="All" odd_back="#ddd" even_back="#f2f2f2">All</option>
+                <option value="category1" odd_back="#ed7e10" even_back="#df2020"
+                >category1</option>
+                <option value="category2" odd_back="#318fee" even_back="#0707c3"
+                >category2</option>
+                <option value="category3"
+                odd_back="#c5e20a" even_back="#0ee20a"
+                >category3</option>
+            </select>
+        </div>
+    <div id="table">
+
+    </div>
+    <div id="Select_Page">
+        <label for="page">Select page:</label>
+        <select id="page">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="2">3</option>
+            <option value="2">4</option>
+            <option value="2">5</option>
+            <option value="2">6</option>
+            <option value="2">7</option>
+            
+        </select>
+    </div>
+    <div id="Select_page_size">
+        <label for="page_size">Select page size:</label>
+        <select id="page_size">
+            <option value="10">10</option>
+            <option value="20">20</option>
+            <option value="50">50</option>            
+        </select>
+    </div>
+    <div id="reset">
+        <button id="reset_button">Reset</button>
+    </div>
+
+
+    
+    <script src="home.js"></script>
+</body>
+</html>

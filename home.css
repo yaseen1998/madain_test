@@ -1,0 +1,129 @@
+
+#table {
+    border-collapse: collapse;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+th{
+    padding: 8px;
+    border: 1px solid #dddddd;
+    text-align: left;
+    background-color: #f2f2f2;
+    margin: 20px;
+  }
+  thead{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  
+  .odd {
+    background-color: #f2f2f2;
+  }
+  .even {
+    background-color: #ffffff;
+  }
+  #table tr:hover {
+    background-color: #ddd;
+  }
+.name-cell {
+  display: flex;
+  align-items: center;
+}
+
+.name-container {
+  display: flex;
+  align-items: center;
+}
+
+.name-circle {
+  width: 40px;
+  height: 40px;
+  background-color: #f2f2f2;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.name-initial {
+  font-size: 18px;
+  color: #555555;
+}
+
+/* Additional styles for the table */
+
+
+td {
+  padding: 8px;
+  border: 1px solid #dddddd;
+  text-align: left;
+}
+
+
+  #search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  #search_input {
+    padding: 5px 10px;
+    font-size: 16px;
+  }
+  
+  #search_button {
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #search_button:hover {
+    background-color: #45a049;
+  }
+
+  #Select_Page,
+#Select_page_size {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+label {
+  margin-right: 10px;
+}
+
+select {
+  padding: 5px;
+  font-size: 14px;
+}
+
+#root{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+#searched{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
